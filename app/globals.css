@@ -145,6 +145,12 @@ html {
   .swiper-button-prev::after {
     font-size: 16px !important;
   }
+  
+  /* Hide navigation arrows on mobile for hero section */
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    display: none !important;
+  }
 }
 
 .swiper-button-next:hover,

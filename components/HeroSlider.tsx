@@ -48,7 +48,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <div className="relative h-[calc(100vh-80px)] md:h-[calc(100vh-100px)]">
+    <div className="relative h-[calc(100vh-400px)] md:h-[calc(100vh-500px)] xl:h-[calc(100vh-80px)] lg:h-[calc(100vh-30vh)]">
       <Swiper
         modules={[Autoplay, Navigation, Pagination, EffectFade]}
         spaceBetween={0}
@@ -67,7 +67,7 @@ export default function HeroSlider() {
         }}
         loop={true}
         speed={1000}
-        className="h-full"
+        className="h-full hero-swiper"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
         }}

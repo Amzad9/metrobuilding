@@ -51,45 +51,45 @@ export default function TrustExperience() {
             </div>
 
             {/* Trust Badges */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="card-cinematic bg-gray-50 p-6 hover:bg-white transition-all duration-400 group layered-depth">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+              <div className="card-cinematic bg-gray-50 p-5 md:p-6 hover:bg-white transition-all duration-400 group layered-depth">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-2.5 md:p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-md font-bold text-gray-900">Licensed</h4>
-                    <p className="text-sm text-gray-600">Fully Licensed</p>
+                    <h4 className="text-sm md:text-md font-bold text-gray-900">Licensed</h4>
+                    <p className="text-xs md:text-sm text-gray-600">Fully Licensed</p>
                   </div>
                 </div>
               </div>
 
-              <div className="card-cinematic bg-gray-50 p-6 hover:bg-white transition-all duration-400 group layered-depth">
+              <div className="card-cinematic bg-gray-50 p-5 md:p-6 hover:bg-white transition-all duration-400 group layered-depth">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-2.5 md:p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-md font-bold text-gray-900">Insured</h4>
-                    <p className="text-sm text-gray-600">Fully Insured</p>
+                    <h4 className="text-sm md:text-md font-bold text-gray-900">Insured</h4>
+                    <p className="text-xs md:text-sm text-gray-600">Fully Insured</p>
                   </div>
                 </div>
               </div>
 
-              <div className="card-cinematic bg-gray-50 p-6 hover:bg-white transition-all duration-400 group layered-depth">
+              <div className="card-cinematic bg-gray-50 p-5 md:p-6 hover:bg-white transition-all duration-400 group layered-depth sm:col-span-2 lg:col-span-1">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-linear-to-br from-[#8BC34A] to-[#7CB342] p-2.5 md:p-3 group-hover:scale-105 transition-transform duration-400 shrink-0 icon-metallic">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-md font-bold text-gray-900">Quality Guaranteed</h4>
-                    <p className="text-sm text-gray-600">100% Satisfaction</p>
+                    <h4 className="text-sm md:text-md font-bold text-gray-900">Quality Guaranteed</h4>
+                    <p className="text-xs md:text-sm text-gray-600">100% Satisfaction</p>
                   </div>
                 </div>
               </div>

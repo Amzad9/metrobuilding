@@ -42,7 +42,7 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-10">
             <Link href="/" className="text-gray-700 hover:text-[#8BC34A] transition-colors font-semibold text-sm xl:text-base relative group">
-              Homepage
+              Home
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#8BC34A] transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link href="/about" className="text-gray-700 hover:text-[#8BC34A] transition-colors font-semibold text-sm xl:text-base relative group">

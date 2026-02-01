@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import HeroSlider from '@/components/HeroSlider';
 import TrustExperience from '@/components/TrustExperience';
 import Services from '@/components/Services';
+import ServiceBanner from '@/components/ServiceBanner';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import FullServices from '@/components/FullServices';
 import ProjectGallery from '@/components/ProjectGallery';
@@ -25,6 +26,7 @@ export default function Home() {
         <HeroSlider />
         <TrustExperience />
         <Services />
+        <ServiceBanner />
         <TeamCulture />
         <WhyChooseUs />
         <FullServices />

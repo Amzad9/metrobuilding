@@ -21,7 +21,7 @@ export default function HeroSlider() {
       title: 'Transform Your Space with Expert Remodeling',
       subtitle: 'Metro Building Solutions',
       description: 'Licensed, insured, and trusted remodeling professionals serving North Ridgeville, Cleveland, and surrounding Ohio communities. From kitchen renovations to complete home transformations, we bring your vision to life.',
-      image: '/hero/Hero1.png',
+      image: '/hero/hero1.png',
       imageAlt: 'Modern cityscape with glass towers and urban architecture',
     },
     {
@@ -29,7 +29,7 @@ export default function HeroSlider() {
       title: 'Multi-Family Construction Excellence',
       subtitle: '6 Years of Proven Results',
       description: 'Specialized expertise in multi-family dwellings, apartment renovations, and duplex construction. Quality craftsmanship, transparent pricing, and reliable project management for property owners and investors.',
-      image: '/hero/Hero2.png',
+      image: '/hero/hero2.png',
       imageAlt: 'Professional cityscape with modern buildings and cinematic lighting',
     },
     {
@@ -37,7 +37,7 @@ export default function HeroSlider() {
       title: 'Your Trusted Construction Partner in Ohio',
       subtitle: 'Licensed & Insured',
       description: 'From basement finishing to exterior renovations, we deliver premium remodeling services with attention to detail, on-time completion, and guaranteed satisfaction. Call (216) 326-9759 for your free consultation.',
-      image: '/hero/Hero3.png',
+      image: '/hero/hero3.png',
       imageAlt: 'Urban cityscape with glass towers and bokeh city lights',
     },
   ];
@@ -85,6 +85,7 @@ export default function HeroSlider() {
                   quality={90}
                   className="object-cover scale-110"
                   sizes="100vw"
+                  unoptimized={false}
                 />
               </div>
               <div 
